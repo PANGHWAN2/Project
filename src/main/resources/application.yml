@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: local
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: false
+    add-properties: false
+  freemarker:
+    cache: false
+  jwt:
+    secret: govlepel@$&
+
+#  intellij에서 static파일을 개발할때 서버를 재시작 하지 않고도 수정한 내용이 반영되도록 함
